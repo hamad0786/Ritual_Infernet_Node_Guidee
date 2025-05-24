@@ -186,8 +186,7 @@ services:
     depends_on:
       - redis
       - infernet-anvil
-    restart:
-      on-failure
+    restart: on-failure
     extra_hosts:
       - "host.docker.internal:host-gateway"
     stop_grace_period: 1m
@@ -196,14 +195,13 @@ services:
   redis:
     image: redis:7.4.0
     ports:
-    - "6379:6379"
+      - "6379:6379"
     networks:
       - network
     volumes:
       - ./redis.conf:/usr/local/etc/redis/redis.conf
       - redis-data:/data
-    restart:
-      on-failure
+    restart: on-failure
     container_name: infernet-redis
 
   fluentbit:
@@ -217,9 +215,8 @@ services:
       - /var/log:/var/log:ro
     networks:
       - network
-    restart:
-      on-failure
-        container_name: infernet-fluentbit
+    restart: on-failure
+    container_name: infernet-fluentbit
 
   infernet-anvil:
     image: ritualnetwork/infernet-anvil:1.0.0
