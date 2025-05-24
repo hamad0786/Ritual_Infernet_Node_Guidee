@@ -108,8 +108,8 @@ If you re running before gensyn then follow these steps
 1:
 ```
 rm ~/infernet-container-starter/projects/hello-world/container/config.json && nano ~/infernet-container-starter/projects/hello-world/container/config.json
-
-# PASTE THIS CODE
+```
+PASTE THIS CODE
 ```
 
     "log_path": "infernet_node.log",
@@ -164,11 +164,13 @@ rm ~/infernet-container-starter/projects/hello-world/container/config.json && na
         }
     ]
 }
-
+```
 2:
 ```
 rm ~/infernet-container-starter/deploy/docker-compose.yaml && nano ~/infernet-container-starter/deploy/docker-compose.yaml
-# PASTE THIS CODE
+```
+PASTE THIS CODE
+```
 services:
   node:
     image: ritualnetwork/infernet-node:1.3.1
