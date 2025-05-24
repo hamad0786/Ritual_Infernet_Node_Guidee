@@ -1,7 +1,7 @@
 # Ritual_Infernet_Node_Guidee
 <div align="center">
 
-#  👨🏻‍💻 **Ritual Infernet Node Guide** 👨🏻‍💻
+# 👨🏻‍💻 **Ritual Infernet Node Guide Run 2 Node Ritual And Gensyn On 1 Vps🤴🤏**
 
 </div>
 
