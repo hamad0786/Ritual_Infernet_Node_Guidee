@@ -236,9 +236,9 @@ networks:
 volumes:
   node-logs:
   redis-data:
+```
 
-# DONE NOW YOU RE RUN 2 NODES GENSYN AND RITUAL ON 1 VPS 
-
+# ✅ DONE - NOW YOU'RE RUNNING 2 NODES: GENSYN AND RITUAL ON 1 VPS
 ```
 project=hello-world make deploy-container
 ```
