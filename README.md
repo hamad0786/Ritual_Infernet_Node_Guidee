@@ -104,7 +104,7 @@ cd infernet-container-starter
 ```
 docker pull ritualnetwork/hello-world-infernet:latest
 ``` 
-If you re running before gensyn then follow these steps
+# If you re running before gensyn then follow these steps
 1:
 ```
 rm ~/infernet-container-starter/projects/hello-world/container/config.json && nano ~/infernet-container-starter/projects/hello-world/container/config.json
